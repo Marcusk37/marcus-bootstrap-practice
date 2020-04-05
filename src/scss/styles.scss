@@ -9,4 +9,31 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.navbar {
+  a:hover {
+    text-decoration: underline;
+  }  
+}
+
+.active {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  h1, p {
+    color: white;
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: 'Gotu', sans-serif;
+font-family: 'Comic Neue', cursive;
+}
+
 // Import partials here
+@import "footer"
